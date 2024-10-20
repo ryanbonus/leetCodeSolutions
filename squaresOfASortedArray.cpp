@@ -6,9 +6,9 @@
 class Solution {
 public:
     std::vector<int> sortedSquares(std::vector<int>& nums) {
-        for (int i=0; i<nums.size(), i++;)
+        for (int i = 0; i < nums.size(); i++)
         {
-            nums[i] = pow(nums[i],2);
+            nums[i] = pow(nums[i], 2);
         }
         std::sort(nums.begin(), nums.end());
         return nums;
@@ -21,9 +21,9 @@ int main()
     Solution solution;
     std::vector<int> output = solution.sortedSquares(input);
     std::cout << "Output: [";
-    for (int x:output)
+    for (int x : output)
     {
-        std::cout<<x<<", ";
+        std::cout << x << ", ";
     }
-    std::cout<<"]\n";
+    std::cout << "]\n";
 }
