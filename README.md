@@ -1,8 +1,6 @@
-# Description
+# LeetCodeSolutions
 
-This repo contains my solutions for various leetcode.com programming problems
-
-# Requirements
+## Requirements
 
 - cmake
 - gcc
