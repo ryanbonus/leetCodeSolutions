@@ -1,4 +1,4 @@
-# LeetCodeSolutions
+# leetCodeSolutions
 
 ## Requirements
 
